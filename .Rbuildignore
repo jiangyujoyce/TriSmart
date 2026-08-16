@@ -1,0 +1,7 @@
+^TriSmart_optimized_YJ\.R$
+^Exampledata\.Rdata$
+^TriSmart.*\.Rcheck$
+^TriSmart_.*\.tar\.gz$
+^\.Rproj\.user$
+^.*\.Rproj$
+^\.check-library$

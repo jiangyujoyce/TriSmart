@@ -1,0 +1,7 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.check-library/
+TriSmart.Rcheck/
+*.tar.gz

@@ -1,0 +1,31 @@
+Package: TriSmart
+Type: Package
+Title: Hybrid Zone-Aware Imputation for Proteomics Data
+Version: 0.1.0
+Authors@R: 
+    person("Yu", "Jiang", email = "yjiang4@memphis.edu",
+           role = c("aut", "cre"))
+Description: Classifies proteins into abundance and missingness zones and
+    applies a three-stage hybrid imputation workflow. The workflow combines
+    multivariate imputation for high-abundance proteins, elastic-net models
+    for proteins with mixed missingness, and left-censoring methods for
+    low-abundance proteins while preserving all observed values.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports:
+    mclust,
+    mgcv,
+    parallel,
+    stats,
+    utils
+Suggests:
+    glmnet,
+    GSimp,
+    impute,
+    imputeLCMD,
+    matrixStats,
+    missForest,
+    pcaMethods
+LazyData: true
+NeedsCompilation: no
